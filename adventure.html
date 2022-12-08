@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    
+      <title>Adventure!!!</title>
+      <meta name="description" content="Drunk Tavern">
+    
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+    </style>
+    <body>
+        <div id="wrapper">
+            <div class = "header">
+                Welcome! This is a choose your own adventure game created in javascript. 
+                <br>
+                Simply click on your decision and hit 'Continue' in order to progress.
+                <br>
+                You can come back to the first question at anytime with 'Reset'.
+        <form id="theAdventure">
+            <p></p>
+            <fieldset></fieldset>
+            <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="GitHub Repository" />
+            <button id="resetButton" class="reset" onclick="resetForm()">Restart</button>
+            <a id="continueButton" class="continue" href="javascript:void(0);">Continue</a>
+          </form>
+        </div>
+           
+</div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
