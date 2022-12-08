@@ -52,6 +52,24 @@ justify-content: center;
   form a.continue {
    float:right;
   }
+  .git{
+      background-color: transparent;
+      border:none;
+      color: #F5ECEE;
+      font-family: 'Inconsolata', monospace;
+      font-size: 18px;
+      letter-spacing: .5px;
+  }
+  .git:hover{color:#DA966A;}
+  form label span {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 14px 12px;
+    border: 2px solid #DA966A;
+    cursor: pointer;
+    border-radius: 25px;
+  }
   button.reset{
       background-color: transparent;
       border:none;
@@ -69,7 +87,6 @@ justify-content: center;
     border: 2px solid #DA966A;
     cursor: pointer;
     border-radius: 25px;
-   
   }
   form label:hover span, form label:focus span {
     border: 2px solid  #DA966A;
